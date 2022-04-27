@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Responsivo</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <aside>
+           <div class="top">
+               <div class="logo">
+                   <img src="./imagens/logo.png" alt="">
+                  
+                   <h2>Grilli</h2>
+               </div>
+               <div class = "close" id="close-btn">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+               </div>
+           </div>
+           
+           <div class="sidebar">
+              <a href="#" class="active">
+                <span class="material-symbols-outlined">
+                    grid_view
+                    </span>
+                    <h3>Dashboard</h3>
+              </a>
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    face
+                    </span>
+                    <h3>Customers</h3>
+              </a> 
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    receipt
+                    </span>
+                    <h3>Work Order</h3>
+              </a> 
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    analytics
+                    </span>
+                    <h3>Analytics</h3>
+              </a> 
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    mail
+                    </span>
+                    <h3>Messages</h3>
+              </a> 
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    inventory
+                    </span>
+                    <h3>Preventive Actions</h3>
+              </a>
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    report
+                    </span>
+                    <h3>Reports</h3>
+              </a>
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    settings
+                    </span>
+                    <h3>Settings</h3>
+              </a> 
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    add
+                    </span>
+                    <h3>Add Material</h3>
+              </a> 
+              <a href="#">
+                <span class="material-symbols-outlined">
+                    logout
+                    </span>
+                    <h3>Logout</h3>
+              </a> 
+           </div>
+          
+
+        </aside>
+
+        <!---fim aside---->
+
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="producao">
+                    <span class="material-symbols-outlined">monitoring</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Production</h3>
+                        <h1>19250MWh</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>95%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted"> last 24 hours</small>
+                </div>
+
+                <!--fim producao-->
+
+                <div class="losses">
+                    <span class="material-symbols-outlined">analytics</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Energy Losses</h3>
+                        <h1>825MWh</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>5%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted"> last 24 hours</small>
+                </div>
+
+                <!--fim de losses-->
+
+                <div class="tipotrabalho">
+                    <span class="material-symbols-outlined">engineering</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Work Type</h3>
+                        <h1>20 amount</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'>
+
+                            </circle>
+                        </svg>
+                        <div class="number">
+                            <p>Predictive 40%</p>
+                            <p>Corrective60%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted"> last 24 hours</small>
+                </div>
+                <!--fim do tipo trabalho-->
+
+            </div>
+        </main>
+    </div>
+
+
+
+   
+
+    <FIeldset>
+        <h2>Fale Conosco</h2>
+
+            <label>Nome completo: <br> <input type="text"></label> <br>
+            <label>Telefone: <br> <input type="tel"></label> <br>
+            <label>E-mail: <br> <input type="email" required></label> <br>
+            <fieldset>
+            
+                <label>Mensagem:</label>
+                <form>
+                    <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+                
+                </form>
+            </fieldset>
+    </fieldset>
+
+
+    <div>
+	
+    </div>
+
+    <footer>
+        <div class="main-content">
+        <div class="left box">
+            <h2> Sobre nós</h2>
+            <div class="content">
+                <p>Inge é uma empresa tecnológica internacional especializada em energia elétrica.</p>
+            
+                <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div><!--left box-->
+        <div class="center box">
+            <h2>Endereço</h2>
+            <div class="content">
+                <div class="place">
+                    <span class="fas fa-map-marker"></span>
+                    <span class="text">Av.Faria Lima, Sampa</span>
+                </div>
+
+                <div class="phone">
+                    <span class="fas fas fa-phone-alt"></span>
+                    <span class="text">+55 19 8888-8888</span>
+                </div>
+
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">inge@inge.com</span>
+                </div>
+            </div>
+        </div>
+        
+        </div><!--main-content-->
+    
+    </footer>
+
+
+</body>
+</html>
